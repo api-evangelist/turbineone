@@ -1,8 +1,31 @@
 aid: turbineone
 name: TurbineOne
-description: 'TurbineOne is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  TurbineOne builds a frontline AI/ML platform that turns raw sensor data into
+  real-time detection, classification, and targeting at the edge for defense and
+  national-security missions. Its product suite spans Frontline Perception (edge
+  computer vision on live sensor feeds), Frontline Command, Frontline Autonomy, a
+  Model Hub for managing and deploying ML models, and EdgeWorks, a program that
+  brings warfighters, mission teams, and engineers together to develop and
+  validate mission capabilities for contested, disconnected environments. The
+  company was founded on expertise in artificial intelligence, mesh networking,
+  and sensing technology, and positions its work as "Responsible AI for our
+  nation's heroes." It is backed by Bessemer Venture Partners. TurbineOne
+  publishes no public developer API, SDK, or documentation surface; this profile
+  captures its public identity, GitHub organization, and a live domain-security
+  probe.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69f94a0425fe30a00ea5e46b/69f990beea049aca680a6c11_82816e379c9b4dc31fe342ac854eb402_logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/turbineone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Ml
+- Defense
+- Edge AI
+- Computer Vision
+- Machine Learning
+- National Security
+- Autonomy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.turbineone.com/
+- type: GitHubOrganization
+  url: https://github.com/TurbineOne
+- type: Blog
+  url: https://www.turbineone.com/company/newsroom
+- type: Support
+  url: https://www.turbineone.com/contact
+- type: PrivacyPolicy
+  url: https://www.turbineone.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.turbineone.com/legal/terms-conditions
+- type: DomainSecurity
+  url: security/turbineone-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
