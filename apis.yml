@@ -52,8 +52,8 @@ tags:
 - Ai Ml
 - Defense
 - Edge AI
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - National Security
 - Autonomy
 tags_raw:
@@ -65,6 +65,8 @@ tags_raw:
 - Machine Learning
 - National Security
 - Autonomy
+- Computer-Vision
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
